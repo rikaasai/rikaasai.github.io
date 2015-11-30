@@ -35,6 +35,9 @@ div#contents {
 footer {
 	margin:35px 0px 0px 680px;
 }
+/*============================================
+menu：normal
+============================================*/
 .navigation {
 	position:relative;
 	margin:0 10px 5px 0px;
@@ -48,9 +51,6 @@ footer {
 		-5px -4px 0 0 #cccccc inset,
 		1px 2px 0 0 #000;
 }
-/*============================================
-menu：normal
-============================================*/
 li a.nav1 {
 	background-image: url(../images/home.png);
 	background-repeat: no-repeat;

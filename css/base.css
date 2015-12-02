@@ -103,3 +103,17 @@ menu：active
 li.navigation.active{
 	background:#fcfcd4;
 }
+/*============================================
+about me
+============================================*/
+p.h2_image {
+	text-align: center;
+	margin-top: 49px;
+	margin-bottom: 40px;
+}
+table {
+	font-size: 18px;
+	width: 530px;
+	margin-left : 250px;
+	margin-bottom:90px;
+}

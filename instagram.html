@@ -7,6 +7,8 @@
 		<title>RIKa ASAI portfolio</title>
 	</head>
 	<body>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/instafeedjs.js"></script>
 		<div id="wrapper">
 			<header>
 				<a href="index.html" class="logo"><img src="images/logo.png" alt="charlotte"></a>
@@ -23,10 +25,20 @@
 				<p class="h2_image">
 					<img src="images/h2_instagram.png">
 				</p>
+				<div id="instafeed"></div>
 			</div>
 			<footer>
 				<img src="images/copyright.png">
 			</footer>
 		</div>
+			<script>
+		var feed = new Instafeed({
+	        get: 'user',
+        	userId: 1136831853,
+	        accessToken: '1136831853.47847a5.81074430e5e34f4e8a6650fd74801fc7',
+	        limit: 32
+	    });
+	    feed.run();
+	</script>
 	</body>
 </html>

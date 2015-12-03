@@ -21,7 +21,7 @@ nav li {
 	float:left;
 	background-color:#EAD9FF;
 }
-a {
+nav ul li a {
 	display:block;
 	width: 117px;
 	height: 46px;
@@ -148,7 +148,14 @@ img.comics {
 /*=====================================
 インスタグラム
 =====================================*/
+#instafeed {
+	width: 930px;
+}
 #instafeed a img {
 	width:200px; height:200px;
-	margin:12px
+	margin:12px;
+}
+script {
+	display: block;
+	float:left;
 }

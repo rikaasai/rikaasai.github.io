@@ -113,9 +113,11 @@ p.h2_image {
 }
 table {
 	font-size: 18px;
-	width: 530px;
+	width: 560px;
 	margin-left : 250px;
 	margin-bottom:90px;
+	line-height: 26px;
+	letter-spacing:1px;
 }
 /*============================================
 favorite

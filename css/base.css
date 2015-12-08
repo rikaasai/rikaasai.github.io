@@ -113,6 +113,7 @@ p.h2_image {
 }
 table {
 	font-size: 16px;
+	font-family: "MS PGothic", "Osaka", Arial, sans-serif;
 	width: 560px;
 	margin-left : 250px;
 	margin-bottom:90px;
@@ -142,6 +143,7 @@ p.testimonials {
 	margin-left:100px;
 	margin-top: 30px;
 	margin-bottom: 90px;
+	font-family: "MS PGothic", "Osaka", Arial, sans-serif;
 }
 img.comics {
 	float: right;
